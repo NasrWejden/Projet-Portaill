@@ -10,3 +10,4 @@ const storage = multer.diskStorage({
     cb(null, "dataset.json");
   },
 });
+const uploads = multer({ storage: storage });
