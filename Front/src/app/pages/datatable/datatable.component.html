@@ -1,0 +1,159 @@
+<!--partie1-->
+<div class="row">
+    
+
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title"> Simple Table</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th>
+                    annee
+                </th>
+                <th>
+                    nb_employee
+                </th>
+                <th>
+                    salaires
+                </th>
+                <th>
+                    cnss
+                </th>
+                <th>
+                    impots
+                </th>
+                <th>
+                    serveurs
+                </th>
+                <th>
+                    comptable
+                </th>
+                <th>
+                    auditeur
+                </th>
+                <th>
+                    sous_traitances
+                </th>
+                <th>
+                    location
+                </th>
+                <th>
+                    eau+internet
+                </th>
+                <th>
+                    bureautiques
+                </th>
+                <th>
+                    totale_bon_livraison
+                </th>
+                <th>
+                    autres_charge
+                </th>
+                <th>
+                    totale_factures
+                </th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let d of dataset">
+                  <td>
+                    {{d.annee}}
+                  </td>
+                  <td>
+                    {{d.nb_employee}}
+                  </td>
+                  <td>
+                    {{d.salaires}}
+                  </td>
+                  <td >
+                    {{d.cnss}}
+                  </td>
+                  <td>
+                    {{d.impots}}
+                  </td>
+                  <td>
+                    {{d.serveurs}}
+                  </td>
+                  <td>
+                    {{d.comptable}}
+                  </td>
+                  <td >
+                    {{d.auditeur}}
+                  </td>
+                  <td>
+                    {{d.sous_traitances}}
+                  </td>
+                  <td>
+                    {{d.location}}
+                  </td>
+                  <td>
+                    {{d.eau_et_internet}}
+                  </td>
+                  <td >
+                    {{d.bureautiques}}
+                  </td>
+                  <td>
+                    {{d.totale_bon_livraison}}
+                  </td>
+                  <td>
+                    {{d.autres_charge}}
+                  </td>
+                  <td>
+                    {{d.totale_factures}}
+                  </td>
+                </tr>
+                <tr classe="predict">
+                  <td>
+                    {{prediction[0]}}
+                  </td>
+                  <td>
+                    {{prediction[1]}}
+                  </td>
+                  <td>
+                    {{prediction[2]}}
+                  </td>
+                  <td >
+                    {{prediction[3]}}
+                  </td>
+                  <td>
+                    {{prediction[4]}}
+                  </td>
+                  <td>
+                    {{prediction[5]}}
+                  </td>
+                  <td>
+                    {{prediction[6]}}
+                  </td>
+                  <td >
+                    {{prediction[7]}}
+                  </td>
+                  <td>
+                    {{prediction[8]}}
+                  </td>
+                  <td>
+                    {{prediction[9]}}
+                  </td>
+                  <td>
+                    {{prediction[10]}}
+                  </td>
+                  <td >
+                    {{prediction[11]}}
+                  </td>
+                  <td>
+                    {{prediction[12]}}
+                  </td>
+                  <td>
+                    {{prediction[13]}}
+                  </td>
+                  <td>
+                    {{prediction[14]}}
+                  </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div> 
+          <!--fin partie1 -->
