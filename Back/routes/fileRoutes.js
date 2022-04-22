@@ -11,3 +11,9 @@ const storage = multer.diskStorage({
   },
 });
 const uploads = multer({ storage: storage });
+const {
+  upload,
+  download,
+  test_get,
+  test_post,
+} = require("../controllers/fileController");
