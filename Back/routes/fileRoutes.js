@@ -17,3 +17,6 @@ const {
   test_get,
   test_post,
 } = require("../controllers/fileController");
+router.post("/fileUpload", upload);
+
+router.get("/download_datafile", download);
