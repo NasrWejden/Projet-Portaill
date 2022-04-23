@@ -20,3 +20,6 @@ const {
 router.post("/fileUpload", upload);
 
 router.get("/download_datafile", download);
+module.exports = {
+  routes: router,
+};
