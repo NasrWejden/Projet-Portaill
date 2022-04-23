@@ -156,4 +156,52 @@
               </tbody>
             </table>
           </div> 
-          <!--fin partie1 -->
+          <!--fin partie1 --> 
+           <!--partie2-->
+           <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th>
+                    annee
+                </th>
+                <th>
+                    projets_universitaires
+                </th>
+                <th>
+                    UMS
+                </th>
+                <th>
+                    revenu_avec_facture 
+                </th>
+                <th>
+                    revenu_sans_facture 
+                </th>
+                <th>
+                    total_revenu 
+                </th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let d of dataset">
+                  <td>
+                    {{d.annee}}
+                  </td>
+                  <td >
+                    {{d.projets_universitaires}}
+                  </td>
+                  <td>
+                    {{d.UMS}}
+                  </td>
+                  <td>
+                    {{d.maintenance_mise_a_jours}}
+                  </td>
+                  <td>
+                    {{d.revenu_facture }}
+                  </td>
+                  <td >
+                    {{d.revenu_sans_facture  }}
+                  </td>
+                  <td >
+                    {{d.total_revenu}}
+                  </td>
+                </tr> 
+                <!--fin partie2 -->
