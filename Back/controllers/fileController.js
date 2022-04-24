@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const upload = async (req, res) => {
   //
-  console.log("hello");
+  console.log("Upload is working");
   console.log(req.body.test1);
   var txt = JSON.stringify(req.body);
   console.log(txt);
